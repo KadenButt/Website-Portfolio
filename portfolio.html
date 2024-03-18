@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html lang="em">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+
+    <!-- External css style sheets from w3schools.com-->
+    <!--To get the Social media buttons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--To get the Poppins font-->
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Main style sheet-->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!--Style sheet for for the page-->
+    <link rel="stylesheet" type="text/css" href="css/portfolio.css" />
+
+
+    <link rel="icon" type="image/x-icon" href="img/icon.ico">
+
+
+</head>
+
+
+<body>
+
+    <!--Header-->
+    <header class="main-header">
+        <div >
+            <a href="https://www.linkedin.com/in/kaden-butt-bb68162b3/" class="fa fa-linkedin"></a>
+            <a href="https://github.com/KadenButt" class="fa fa-github"></a>
+        </div>
+    </header>
+
+    <!--Nav Bar-->
+    <nav>
+        <ul>
+            <li class="nav-text"><a href="index.html">Home</a></li>
+            <li class="nav-text"><a class="active" href="portfolio.html">Portfolios</a></li>
+            <li class="nav-text"><a href="contact.HTML">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!--Main-->
+    <main class="title-text">
+        <h1>Portfolios</h1>
+
+        <!--Main portfolio -->
+        <div class="projects">
+            <div class="project">
+                <img src="img/blinkgame.png" alt="Image of a space ship and eyeballs heaing in the general direction of the ship">
+                <section>
+                    <h2> Blinked Controlled Game</h2>
+                    <p>For this project I used both python and C# to create a game which uses the users’ binks to
+                        control the y direction of the player. I used to python to do the visual processing of the
+                        blinks as C# was not well suited to the task. Due to this I had to use the TCP/IP protocol to
+                        send information from the separate scripts using local ports. I then used Unity to handle the
+                        graphical side of the project. The game was a simple galactica style game. The link to the
+                        games' GitHub is below;</p>
+                    <p><a href="https://github.com/KadenButt/blinked_controlled_game">Blink Controlled Game's GitHub</a>
+                    </p>
+                </section>
+            </div>
+        </div>
+
+        <br>
+
+        <!--Less import portfolio's-->
+        <div class="projects-small" >
+            <div class="project">
+                <img src="img/pascalstriangle.png" class="portfolio-small-image" alt="Image of Pascal's Triangle with 9 rows">
+                <section>
+                    <h2>Pascal's Triangle</h2>
+                    <p>One of my first original programs written in C++ was a piece of software that would calculate
+                        Pascal’s Triangle to a certain row that was specified within the code. Although a short project
+                        it was interesting due to this being my first-time programming in such a complex language.
+                        GitHub link attached below;</p>
+                    <a href="https://github.com/KadenButt/PascalsTriangle">Pascal’s Triangle</a></p>
+                </section>
+            </div>
+
+            <div class="project">
+                <img src="img/chat.png" class="portfolio-small-image" alt="Image of the Chat Messager">
+                <section>
+                    <h2>Chat Messager</h2>
+                    <p>In this project I created a chat app that uses a python module called sockets to communicate
+                        between a host and several clients. I then used another module called Tkinter to create a
+                        application interface for the client.</p>
+                    <a href="https://github.com/KadenButt/Python-Chat-">Chat Messager</a></p>
+                </section>
+            </div>
+
+        </div>
+
+
+    </main>
+
+    <!--Footer-->
+    <footer>
+        <h3> Kaden James Butt</h3>
+        <h3><a href="mailto:230414675@aston.uc.uk ">230414675@aston.ac.uk</a></h3>
+        <h3>SUN: 230414675 </h3>
+    </footer>
+</body>
+
+
+
+</html>

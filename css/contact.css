@@ -1,0 +1,14 @@
+/* Contact Forms ----------------------------------------------------- */
+
+
+.contact-me {
+  display: inline-grid;
+  border: 5px solid #06191D;
+  width: 36%;
+}
+
+.contact-input {
+  width: 98%;
+}
+
+

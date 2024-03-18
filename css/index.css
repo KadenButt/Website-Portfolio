@@ -1,0 +1,34 @@
+.education {
+  background-color: #06191D;
+}
+
+/* Work Experience ----------------------------------------------------- */
+
+.work-experience {
+  background-color: #1D1B26;
+}
+
+
+/* Skills */
+
+.skills {
+  background-color: #06191D;
+}
+
+
+/* Intrest ----------------------------------------------------- */
+
+.interests {
+  background-color: #1b2620;
+}
+
+.program-name
+{
+  display: inline-flex;
+  
+}
+
+.program-name i
+{
+  margin: 5% 10px;
+}

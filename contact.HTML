@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html lang="em">
+
+<head>
+    <title>Contact</title>
+    <meta charset="UTF-8">
+
+    <!-- External css style sheets from w3schools.com-->
+    <!--To get the Social media buttons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--To get the Poppins font-->
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="img/icon.ico">
+
+    <!--Main style sheet-->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <!--Style sheet for for the page-->
+    <link rel="stylesheet" type="text/css" href="css/contact.css" />
+
+    <script defer src="js/contact.js"></script>
+
+
+</head>
+
+
+
+
+<body>
+
+    <!--Header-->
+    <header class="main-header">
+        <a href="https://www.linkedin.com/in/kaden-butt-bb68162b3/" class="fa fa-linkedin"></a>
+        <a href="https://github.com/KadenButt" class="fa fa-github"></a>
+    </header>
+
+    <!--Nav Bar-->
+    <nav>
+        <ul>
+            <li class="nav-text"><a href="index.html">Home</a></li>
+            <li class="nav-text"><a href="portfolio.html">Portfolios</a></li>
+            <li class="nav-text"><a class="active" href="contact.HTML">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!--Main-->
+    <main class="title-text">
+        <h1> Contact Me</h1>
+        <div class="contact-me">
+            <form id="form">
+                <!--text fields-->
+                <label for="name">First Name</label><br>
+                <input type="text" id="fname" class="contact-input"><br>
+
+                <label for="email">Email</label><br>
+                <input type="text" id="femail" class="contact-input"><br>
+
+                <label for="confirm-email">Confirm Email</label><br>
+                <input type="text" id="fconfirm-email" class="contact-input"><br>
+
+                <label for="phone-number">Phone Number</label><br>
+                <input type="text" id="fphone-number" class="contact-input"><br>
+
+
+                <label for="project">Project</label><br>
+                <input type="text" id="Project" class="contact-input"><br>
+
+                <!--Drop down Menu-->
+                <label for="date">Date</label><br>
+
+                <div>
+
+                    <select id="day"></select>
+
+                    <select id="month" onchange="setDays()">
+                        <option value="1">January</option>
+                        <option value="2">February</option>
+                        <option value="3">March</option>
+                        <option value="4">April</option>
+                        <option value="5">May</option>
+                        <option value="6">June</option>
+                        <option value="7">July</option>
+                        <option value="8">August</option>
+                        <option value="9">September</option>
+                        <option value="10">October</option>
+                        <option value="11">November</option>
+                        <option value="12">December</option>
+                    </select>
+
+                    <select id="year" onchange="setDays()"></select>
+
+                </div>
+
+
+
+                <label for="duration">Duration</label><br>
+                <select id="duration">
+                    <option value="1">1 Hour</option>
+                    <option value="2">2 Hour </option>
+                    <option value="3">3 Hour</option>
+                    <option value="4">4 Hour</option>
+                    <option value="5">5 Hour </option>
+                </select><br>
+
+                </select>
+
+
+                <!--text box-->
+                <label for="subject">Description</label><br>
+                <textarea name="subject" rows="4" cols="40" id="fsubject"></textarea><br>
+
+                <!--Radio boxes-->
+                <form>
+                    <label>Text
+                        <input type="radio" name="type-of-communication" id="text-check-box">
+                </label>
+                
+                    <label>Email
+                        <input type="radio" name="type-of-communication" id="email-check-box">
+                 </label>
+                    <br>
+                    <!--Submit-->
+                    <button type="button" class="submit" id="curved-button" id="text-box">Submit</button><br>
+                </form>
+
+
+        </div>
+    </main>
+
+    <!--Footer-->
+    <footer>
+        <h3> Kaden James Butt</h3>
+        <h3><a href="mailto:230414675@aston.uc.uk ">230414675@aston.ac.uk</a></h3>
+        <h3>SUN: 230414675 </h3>
+    </footer>
+</body>
+
+
+
+</html>
